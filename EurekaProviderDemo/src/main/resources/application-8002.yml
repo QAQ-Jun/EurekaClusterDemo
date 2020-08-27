@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: eureka-provider-server
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8762/eureka/
+#      defaultZone: http://localhost:8761/eureka/,http://127.0.0.1:8762/eureka/
+
+server:
+  port: 8002
+
+name: 8002-test

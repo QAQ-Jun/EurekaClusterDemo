@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: eureka-consumer-server
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8762/eureka/
+  instance:
+    appname: feign-client
+
+server:
+  port: 8082
+
+name: 8082-test
